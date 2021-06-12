@@ -99,7 +99,7 @@ header.sticky{
 /* css for home section */
 
 .home{
-    background:url(../images/home__bg.jpg) no-repeat;
+    background:url(home__bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -176,7 +176,7 @@ header.sticky{
 /* css for symptoms section */
 
 .symptoms{
-    background:url(../images/background-img.jpg) no-repeat;
+    background:url(background-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -302,7 +302,7 @@ header.sticky{
 /* css for doctor section */
 
 .doctor{
-    background:url(../images/background-img.jpg) no-repeat;
+    background:url(background-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -373,7 +373,7 @@ header.sticky{
 /* css for footer section */
 
 .footer{
-    background:url(../images/background-img.jpg) no-repeat;
+    background:url(background-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -483,25 +483,22 @@ header.sticky{
 
     header .navbar{
         position: absolute;
-        top:100%; left: 0;
-        width:100%;
-        background:#fff;
-        padding:2rem;
-        border-top: .1rem  solid rgba(0,0,0,.1);
-        transform-origin: top;
-        transform: scaleY(0);
-        opacity: 0;
+        top: 50px;
+        right:-300px;
     }
 
     header .navbar.nav-toggle{
-        transform: scaleY(1);
-        opacity: 1;
+     right: 50px;
+     height: 400px;
+     background-color: antiquewhite;
+    
     }
 
     header .navbar a{
         display: block;
         margin:1.5rem 0;
         font-size: 2rem;
+        color: #07854a;
     }
 
     .fa-times{
