@@ -2,7 +2,7 @@ $(document).ready(function(){
   
   $("#menu").click(function(){
 
-   $(".navbar").toggle;
+   $(".navbar").toggleClass("nav-toggle");
 
   });
 
